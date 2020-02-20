@@ -15,7 +15,8 @@ class CashRegister
     @total += @total_price
     
     quantity.times do
-      
+      @@items_on_cart << title
+    end
   end
 
   def apply_discount
