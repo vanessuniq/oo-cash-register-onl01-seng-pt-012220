@@ -29,10 +29,6 @@ class CashRegister
     end 
   end
   
-  def items
-   @@items_on_cart
-  end
-  
   def void_last_transaction
     @total -= @total_price
   end
