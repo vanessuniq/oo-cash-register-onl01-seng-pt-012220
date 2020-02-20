@@ -3,7 +3,6 @@ class CashRegister
   
   attr_accessor :total, :discount, :total_price
   
-  @@items_on_cart = []
   def initialize discount = nil
     @total = 0
     @discount = discount
